@@ -80,8 +80,9 @@ img {
 }
 
 .container {
-    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .main-nav,
@@ -97,6 +98,7 @@ header button {
 
 .nav-container {
     width: 100%;
+    max-width: 800px;
 }
 
 .main-nav {
@@ -154,12 +156,6 @@ footer {
 }
 
 @media (min-width: 500px) {
-
-    .nav-container {
-        width: 90%;
-        margin: 0 auto;
-    }
-
     .main-nav-logo,
     .nav-links a {
         border: none;
@@ -186,9 +182,8 @@ footer {
 }
 
 @media (min-width: 800px) {
-    .container,
-    .nav-container{
-        max-width: 800px;
+    .nav-container {
+        margin: 0 auto;
     }
 
     .main-nav {
